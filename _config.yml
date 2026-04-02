@@ -1,0 +1,21 @@
+title: "TEA/Branch"
+description: "Open-source AI infrastructure by TEA/Branch. Use any AI model with any tool."
+url: "https://teabranch.dev"
+baseurl: ""
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - node_modules
+  - vendor/
+  - docs/
+  - .superpowers/
